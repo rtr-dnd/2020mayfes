@@ -1,0 +1,11 @@
+data:image/svg+xml,%3Csvg width%3D%2222%22 height%3D%2222%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath d%3D%22M13.672 19.75a2.914 2.914 0 01-5.344 0zM6.653 2.335C8.53.34 11 .503 11 .503s2.47-.163 4.347 1.832c1.808 1.922 1.392 6.75 2.404 9.31 1.012 2.56 2.279 3.563 3.126 4.273.848.71.73 1.605.241 2.185-.489.579-1.37.48-1.37.48H2.252s-.882.099-1.371-.48c-.488-.58-.607-1.474.24-2.185.848-.71 2.115-1.714 3.127-4.273 1.012-2.56.597-7.388 2.404-9.31z%22 fill%3D%22%23444%22 fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E
+data:image/svg+xml,%3Csvg width%3D%2221%22 height%3D%2217%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath d%3D%22M19.437 14a1.376 1.376 0 010 2.75H1.562a1.376 1.376 0 010-2.75zm0-6.875a1.376 1.376 0 010 2.75H1.562a1.376 1.376 0 010-2.75zm0-6.875a1.376 1.376 0 010 2.75H1.562a1.376 1.376 0 010-2.75z%22 fill%3D%22%23444%22 fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E
+https://s.yimg.jp/c/icon/s/bsc/2.0/mail80.png
+https://s.yimg.jp/images/weather/general/next/255_night.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/transit80.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/shopping80.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/sports80.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/auctions80.png
+https://s.yimg.jp/images/yjtop/tool/pay_home.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/finance80.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/points_a80.png
