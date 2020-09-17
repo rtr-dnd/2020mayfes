@@ -1,7 +1,35 @@
+$primary-blue: #3278F6;
 body {
   margin: 0;
+  font-family: apple-system-subset,Helvetica,'Hiragino Kaku Gothic ProN',sans-serif;
+  box-sizing: border-box;
+  background-color: #eee;
+  position: relative;
 }
 header {
   display: flex;
-  
+  align-items: center;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  background-color: #fff;
+  img.logo {
+    height: 100%;
+  }
+  a {
+    display: block;
+  }
+}
+.search-section {
+  height: 55px;
+  position: sticky;
+  padding: 8px;
+  background-color: #fff;
+  .search-box-wrap {
+    border: 2px solid $primary-blue;
+    border-radius: 2px;
+    .search-box {
+      background-color: #fff;
+    }
+  }
 }
