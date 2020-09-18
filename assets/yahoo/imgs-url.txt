@@ -1,0 +1,8 @@
+https://s.yimg.jp/images/weather/general/next/255_night.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/transit80.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/shopping80.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/sports80.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/auctions80.png
+https://s.yimg.jp/images/yjtop/tool/pay_home.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/finance80.png
+https://s.yimg.jp/c/icon/s/bsc/2.0/points_a80.png
