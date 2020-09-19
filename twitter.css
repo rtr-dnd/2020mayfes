@@ -1,14 +1,18 @@
 body {
   margin: 0;
-  color:#52ff41;
+  color: rgba(29,161,242,1.00);
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+
 }
 
 main {
   flex: 1;
+  margin-top: 52.5px;
+  margin-bottom: 52.5px;
 }
 
 footer {
@@ -30,6 +34,7 @@ footer {
   margin-right: 0px;
   align-items: center;
   justify-content: space-evenly;
+  position: fixed;
 }
 
 header {
@@ -45,6 +50,7 @@ header {
   vertical-align: middle;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
 
 .box {
@@ -124,24 +130,25 @@ header {
 }
 
 .id {
-  margin-left: 0px;
+  margin-left: 5px;
   font-weight: 400;
   color: rgb(101, 119, 134);
   -webkit-box-orient: horizontal;
-  flex-direction: row;
   display: flex;
   flex-basis: auto;
   flex-direction: row;
   max-width: 100%;
   flex-shrink: 1;
+  font-size: 15px;
 }
 
 .dropdown {
   height: 15px;
-  width: 15px;
-  display: inline-block;
+  display: inline-flex;
   margin-left:auto;
+  flex-direction: row;
   margin-right:0px;
+  color: rgb(101, 119, 134);
 }
 
 .statement {
@@ -187,9 +194,9 @@ header {
 
 .stars {
   height: 23px;
-  width: 23px;
-  display: inline-block;
+  display: inline-flex;
   margin-left:auto;
+  flex-direction: row;
   margin-right:0px;
 }
 
@@ -200,4 +207,23 @@ header {
   color: #000000;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
   line-height: 1.3125;
+}
+
+.tweet {
+  position: fixed;
+  right: 20px;
+  bottom: 73.5px;
+  height: 59px;
+  width: 59px;
+  background-color: rgba(29,161,242,1.00);
+  border-radius: 9999px;
+  box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 8px, rgba(101, 119, 134, 0.25) 0px 1px 3px 1px;
+}
+
+.tweet-mini {
+  height: 24px;
+  width: 24px;
+  background-color: rgba(29,161,242,1.00);
+  border-radius: 9999px;
+  box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 8px, rgba(101, 119, 134, 0.25) 0px 1px 3px 1px;
 }
