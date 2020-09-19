@@ -241,6 +241,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.container-inner .pseudo-screen {
+  margin-top: 0;
+}
 .container-inner .caption {
   text-align: center;
   padding: 8px;
@@ -527,8 +530,10 @@ header.tw-header {
 }
 
 .tweet {
-  position: fixed;
-  right: 20px;
+  position: sticky;
+  /* right: 20px; */
+  margin-left: auto;
+  margin-right: 20px;
   bottom: 73.5px;
   height: 59px;
   width: 59px;
