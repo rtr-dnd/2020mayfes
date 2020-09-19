@@ -524,5 +524,9 @@ header.tw-header {
   border-radius: 9999px;
   display: flex;
   flex-direction: row;
+}
 
+.profile {
+  height: 19px;
+  border-radius: 9999px;
 }
