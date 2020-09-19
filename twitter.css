@@ -216,6 +216,7 @@ body {
 
 .pseudo-screen {
   position: relative;
+  background-color: #fff;
   margin-top: 45px;
   height: calc(100vh - 45px);
   flex-grow: 1;
@@ -235,6 +236,7 @@ body {
   justify-content: center;
   height: calc(100vh - 45px);
   box-sizing: border-box;
+  background-color: #3A3A3A;
 }
 .container-inner {
   margin: 0 auto;
@@ -249,6 +251,7 @@ body {
   padding: 8px;
   font-size: 13px;
   opacity: 0.5;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -544,9 +547,11 @@ header.tw-header {
 }
 
 .tweet-stars {
-  position: fixed;
-  right: 20px;
+  position: sticky;
+  /* right: 20px; */
   bottom: 73.5px;
+  margin-left: auto;
+  margin-right: 20px;
   height: 59px;
   width: 59px;
   background-color: #ffffff;

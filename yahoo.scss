@@ -4,6 +4,7 @@ $blue-primary: #3278F6;
 $blue-dark: #698ac1;
 $navy: #151B4E;
 $grey: rgba(0, 0, 0, 0.4);
+$grey-bg: #3A3A3A;
 $grey-text: #444444;
 $grey-border: rgba(0, 0, 0, 0.08);
 $grey-lighter: rgba(0, 0, 0, 0.03);
@@ -185,6 +186,7 @@ body {
 }
 .screen-container {
   display: flex;
+  background-color: $grey-bg;
   align-items: center;
   justify-content: center;
   height: calc(100vh - 45px);
@@ -206,6 +208,7 @@ body {
     padding: 8px;
     font-size: 13px;
     opacity: 0.5;
+    color: #fff;
   }
 }
 .pseudo-screen {
@@ -213,6 +216,7 @@ body {
   width: 100vw;
   overflow-y: scroll;
   position: relative;
+  background-color: #fff;
   @media screen and (min-width: 769px) {
     max-width: 375px;
     height: 80vh;
