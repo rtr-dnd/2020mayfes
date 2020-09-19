@@ -172,6 +172,7 @@ a {
   padding: 64px 0;
   .desc-title {
     width: 100vw;
+    box-sizing: border-box;
     max-width: 760px;
     padding: 8px 24px;
     margin: 48px auto;
