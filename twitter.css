@@ -208,6 +208,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  padding-right: 0px;
+  padding-left: 0px;
 
 }
 
@@ -257,7 +259,6 @@ header.tw-header {
   justify-content: center;
   align-items: center;
   position: sticky;
-  top: 0;
 }
 
 .box {
@@ -317,6 +318,7 @@ header.tw-header {
   flex-direction: row;
   flex-grow: 1;
   flex-shrink: 1;
+  max-width: 100%;
 }
 .omit {
   display: inline-flex;
@@ -327,20 +329,14 @@ header.tw-header {
   text-overflow: ellipsis;
   white-space: nowrap;
   -webkit-line-clamp: 3;
-
+  -webkit-box-orient: vertical;
 }
 .name {
   font-weight: bold;
   font-size: 15px;
   color: rgb(20, 23, 26);
   max-width: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
 }
 
 .name-noomit {
@@ -359,7 +355,6 @@ header.tw-header {
   font-weight: 400;
   color: rgb(101, 119, 134);
   -webkit-box-orient: horizontal;
-  max-width: 100%;
   font-size: 15px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -402,6 +397,7 @@ header.tw-header {
   flex-basis: auto;
   flex-direction: row;
   font-size: 15px;
+  white-space: nowrap;
 }
 
 .dropdown {
