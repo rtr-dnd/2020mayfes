@@ -530,3 +530,8 @@ header.tw-header {
   height: 19px;
   border-radius: 9999px;
 }
+
+.profile-big {
+  height: 49px;
+  border-radius: 9999px;
+}
