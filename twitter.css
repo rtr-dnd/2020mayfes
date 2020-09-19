@@ -520,11 +520,11 @@ header.tw-header {
   margin-right: 10px;
   width: 47px;
   height: 47px;
-  border-color: black;
-  border: solid 1px black;
+  border: solid 1px #657786;
   border-radius: 9999px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .profile {
