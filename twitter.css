@@ -305,7 +305,7 @@ header.tw-header {
   flex-shrink: 1;
   max-width: 100%;
   margin-right: 0px;
-
+  overflow: hidden;
 }
 
 .nameline {
@@ -320,14 +320,19 @@ header.tw-header {
   flex-shrink: 1;
   max-width: 100%;
 }
+.inline {
+  display: inline-flex;
+  flex-grow: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
 .omit {
   display: inline-flex;
   flex-basis: auto;
   flex-direction: row;
   flex-shrink: 1;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
@@ -343,10 +348,10 @@ header.tw-header {
   font-weight: bold;
   font-size: 15px;
   color: rgb(20, 23, 26);
-  display: flex;
+  /* display: flex;
   flex-basis: auto;
   flex-direction: row;
-  max-width: 100%;
+  max-width: 100%; */
   white-space: nowrap;
 }
 
@@ -368,11 +373,11 @@ header.tw-header {
   font-weight: 400;
   color: rgb(101, 119, 134);
   -webkit-box-orient: horizontal;
-  display: flex;
+  /* display: flex;
   flex-basis: auto;
   flex-direction: row;
   max-width: 100%;
-  flex-shrink: 1;
+  flex-shrink: 1; */
   font-size: 15px;
   white-space: nowrap;
 }
