@@ -343,6 +343,17 @@ header.tw-header {
   -webkit-line-clamp: 3;
 }
 
+.name-noomit {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(20, 23, 26);
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
 .id {
   margin-left: 5px;
   font-weight: 400;
@@ -350,13 +361,27 @@ header.tw-header {
   -webkit-box-orient: horizontal;
   max-width: 100%;
   font-size: 15px;
-  box-sizing: border-box;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3; 
 }
+
+.id-noomit{
+  margin-left: 5px;
+  font-weight: 400;
+  color: rgb(101, 119, 134);
+  -webkit-box-orient: horizontal;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  max-width: 100%;
+  flex-shrink: 1;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
 
 .dot {
   margin-left: 5px;
@@ -465,6 +490,17 @@ header.tw-header {
   height: 59px;
   width: 59px;
   background-color: rgba(29,161,242,1.00);
+  border-radius: 9999px;
+  box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 8px, rgba(101, 119, 134, 0.25) 0px 1px 3px 1px;
+}
+
+.tweet-stars {
+  position: fixed;
+  right: 20px;
+  bottom: 73.5px;
+  height: 59px;
+  width: 59px;
+  background-color: #ffffff;
   border-radius: 9999px;
   box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 8px, rgba(101, 119, 134, 0.25) 0px 1px 3px 1px;
 }
